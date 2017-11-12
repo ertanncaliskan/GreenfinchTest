@@ -7,7 +7,7 @@ It has own business logic layer, UserActionBL
 
 for making debug on your IDE,
 * you need to execute CreateDatabase.sql on your Microsoft SQL Management Studio.
-* you need to change connection string ConnectionStringProvider class' GetConnectionString property.
+* you need to change connection string which is located in ConnectionStringProvider class' GetConnectionString property.
 
 there is one ready to use user
 email: ertan_caliskan@hotmail.com
