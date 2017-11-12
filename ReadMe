@@ -1,0 +1,14 @@
+This solution is very basic "video watching website" for showing my skills on Greenfinch test's requirements.
+
+It has own session layer, CacheDictionary
+It has own authorization filter, GreenFinchAuthorizationFilter
+It has abstracted orm library, I used NPoco for that solution but you can implement whatever you want under AbstractedORMLibrary project. You don't need to change any soucecodes under GreenfinchTest project.
+It has own business logic layer, UserActionBL
+
+for making debug on your IDE,
+* you need to execute CreateDatabase.sql on your Microsoft SQL Management Studio.
+* you need to change connection string ConnectionStringProvider class' GetConnectionString property.
+
+there is one ready to use user
+email: ertan_caliskan@hotmail.com
+pass: ertan123
